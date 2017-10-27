@@ -1,10 +1,13 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class ModelManager : MonoBehaviour {
+public class ModelManager : MonoBehaviour
+{
+
+    private float a = 1.0000001f;
 
 	void Start () {
-	    Debug.Log("helloworld");
+	    Debug.Log("hellowzdasdasd大大声地orld");
 	}
 	
 	void Update () {
