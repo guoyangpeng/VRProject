@@ -3,13 +3,11 @@ using System.Collections;
 
 public class ModelManager : MonoBehaviour {
 
-	// Use this for initialization
 	void Start () {
 	    Debug.Log("helloworld");
 	}
 	
-	// Update is called once per frame
 	void Update () {
-	
+	    transform.Rotate(Vector3.up, Time.deltaTime * 30);
 	}
 }
